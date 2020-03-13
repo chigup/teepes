@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='rocket_chat_webview'

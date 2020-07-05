@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="0.5dp" android:left="0.5dp" android:right="0.5dp" android:top="0.5dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="10dp" />
+            <gradient android:angle="45"
+                android:centerColor="#FF5864"
+                android:endColor="#FD297B"
+                android:startColor="#FF655B"/>
+
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_add_black_24dp"/>
+</layer-list>

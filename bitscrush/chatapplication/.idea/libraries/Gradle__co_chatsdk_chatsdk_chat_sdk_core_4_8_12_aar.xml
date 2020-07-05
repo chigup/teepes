@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: co.chatsdk.chatsdk:chat-sdk-core:4.8.12@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93bc4c6e7b0dc02fdea539d7dad3d9e5/chat-sdk-core-4.8.12/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93bc4c6e7b0dc02fdea539d7dad3d9e5/chat-sdk-core-4.8.12/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.chatsdk.chatsdk/chat-sdk-core/4.8.12/2921f7b58da6ae2ca8a31f4a99bdd3835dbfab52/chat-sdk-core-4.8.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.chatsdk.chatsdk/chat-sdk-core/4.8.12/77dcfc7bab5c679c1abcb486b06ef381c8a0e546/chat-sdk-core-4.8.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

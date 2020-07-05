@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp">
+
+
+    <TextView
+        android:id="@+id/interest_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/red_text_box"
+        android:baselineAligned="false"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="Socially Dormat"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/interest_pin_text_size" />
+
+</LinearLayout>

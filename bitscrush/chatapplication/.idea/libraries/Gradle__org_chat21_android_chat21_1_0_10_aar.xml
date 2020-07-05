@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: org.chat21.android:chat21:1.0.10@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/904ebff1b2735bcef004c20b7b571731/jetified-chat21-1.0.10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/904ebff1b2735bcef004c20b7b571731/jetified-chat21-1.0.10/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.chat21.android/chat21/1.0.10/348d91c8e153e8d9ca28fa512551d9549e75919c/chat21-1.0.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.chat21.android/chat21/1.0.10/9ae1c1bd4a3ad9933efac4713f638a90e2fee268/chat21-1.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

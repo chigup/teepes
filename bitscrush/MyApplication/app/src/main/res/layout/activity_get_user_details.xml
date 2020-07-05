@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".onboarding.get_user_details">
+    <include layout="@layout/activity_tool_bar"/>
+
+
+<LinearLayout
+   android:layout_weight="1"
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+
+        android:paddingRight="10dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/user_onboarding"/>
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/text_box"
+                android:hint="Full Name"
+                android:lines="1"
+                android:maxLines="1"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/type_user_name"
+                android:text="Enter your correct full name so that your admirers can send you anonymous messages."
+                android:textSize="12dp"
+                android:textColor="@color/green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+
+                android:layout_height="35dp"
+                android:id="@+id/pet_name"
+                android:layout_width="match_parent"
+                android:digits="0123465789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_."
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:hint="Username"
+                android:background="@drawable/text_box"
+                android:lines="1"
+                android:layout_marginBottom="5dp"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="invisible"
+                android:id="@+id/is_pet_name_exists_text"
+
+                android:textSize="12dp"
+                android:textColor="@color/green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="I am a"
+                android:textSize="16dp"/>
+            <RadioGroup
+            android:id="@+id/user_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+
+            android:gravity="bottom"
+            android:orientation="horizontal"
+                android:padding="10dp"
+            android:textSize="13dp">
+
+            <RadioButton
+                android:id="@+id/male_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:background="@drawable/red_text_box"
+                android:button="@null"
+                android:text="Man"
+                android:textAlignment="center"
+                android:textColor="@color/pink"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/female_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignStart="@+id/user_gender"
+                android:layout_alignTop="@+id/user_gender"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                 android:background="@drawable/red_text_box"
+                android:button="@null"
+                android:text="Woman"
+                android:textAlignment="center"
+                  android:textColor="@color/pink"
+                android:textSize="16dp"
+               />
+
+
+                <RadioButton
+               android:id="@+id/other_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignStart="@+id/user_gender"
+                    android:layout_alignTop="@+id/user_gender"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_text_box"
+                    android:button="@null"
+                    android:text="Other"
+                    android:textAlignment="center"
+                    android:textColor="@color/pink"
+                    android:textSize="16dp"  />
+
+        </RadioGroup>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Show Me"
+                android:textSize="16dp"/>
+
+
+            <RadioGroup
+                android:id="@+id/show_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+
+
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:textSize="13dp">
+
+                <RadioButton
+                    android:id="@+id/show_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_text_box"
+                    android:button="@null"
+                    android:text="Men"
+                    android:textAlignment="center"
+                      android:textColor="@color/pink"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/show_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignStart="@+id/user_gender"
+                    android:layout_alignTop="@+id/user_gender"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_text_box"
+                    android:button="@null"
+                    android:text="Women"
+                    android:textAlignment="center"
+                      android:textColor="@color/pink"
+                    android:textSize="16dp"
+                    />
+
+
+                <RadioButton
+                    android:id="@+id/show_everyone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignStart="@+id/user_sex"
+                    android:layout_alignTop="@+id/user_sex"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                     android:background="@drawable/red_text_box"
+                    android:button="@null"
+                    android:text="Everyone"
+                    android:textAlignment="center"
+                      android:textColor="@color/pink"
+                    android:textSize="16dp"  />
+
+            </RadioGroup>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+
+        android:id="@+id/next_to_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/pink_button"
+        android:fontFamily="@font/roboto"
+        android:text="Next"
+        android:layout_marginBottom="15dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>

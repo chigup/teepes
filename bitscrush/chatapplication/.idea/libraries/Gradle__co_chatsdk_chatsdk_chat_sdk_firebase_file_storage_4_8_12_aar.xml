@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: co.chatsdk.chatsdk:chat-sdk-firebase-file-storage:4.8.12@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0d5ebd9a36b647176187e2271c76faf/chat-sdk-firebase-file-storage-4.8.12/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b0d5ebd9a36b647176187e2271c76faf/chat-sdk-firebase-file-storage-4.8.12/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.chatsdk.chatsdk/chat-sdk-firebase-file-storage/4.8.12/633b7db1aec6298c5cb18c20d8bfd474d4be1b6f/chat-sdk-firebase-file-storage-4.8.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.chatsdk.chatsdk/chat-sdk-firebase-file-storage/4.8.12/47a14f6dfab94b4335b61e05662d6baf43026195/chat-sdk-firebase-file-storage-4.8.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
